@@ -1,0 +1,32 @@
+/* reset */
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+/* type */
+
+body{
+     font-family: arial, sans-serif;
+     text-align: center;
+     font-size: 50;
+     line-height: 1.4;
+     background-color: #fefefe;
+}
+
+/*type*/
+content{
+	max-width: 1000px;
+	padding: 100px 30px;
+	margin: auto;
+	font-weight: 300;
+}
+
+content p{
+	margin-bottom: 80px;
+	position:  relative;
+}
+
+{ 
+  }
