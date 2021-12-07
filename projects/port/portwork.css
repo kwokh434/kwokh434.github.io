@@ -1,0 +1,116 @@
+body {
+    font-family:'Ubuntu Mono', monospace;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.bar {
+    background-color: white;
+    font-color: black;
+    font-size: 40px;
+    height: 8vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    float: right;
+    text-align: right;
+
+   }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 500px;
+    justify-content: space-around;
+    font-size: 30px;
+    float: right;
+}
+
+li {
+    text-decoration: none;
+    color: black;
+}
+
+
+.project-card {
+    width: 300px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(197, 195, 195);
+    margin: 10px;
+    text-align: center;
+}
+
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.project-image {
+    margin-top: 25px;
+    width: 250px;
+    border-radius: 125px;
+    cursor: pointer;
+    opacity: 0.5;
+    trnasition: all .4s;
+}
+
+.project-image:hover{
+    transition: rotate(15deg) scale(1.1);
+    border-radius: 40px;
+    opacity:  1;
+    z-index: 10;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.192);
+
+}
+
+@keyframes floating{
+    0%{
+    transform: translate(0,0px);
+    }
+    50%{
+        transform: translate(0,15px);
+    }
+    100%{
+        transform: translate(0,-10px);
+    }
+}
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    color: #ef744b;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    padding: 0 10px ;
+}
