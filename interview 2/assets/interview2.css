@@ -1,0 +1,140 @@
+/* reset */
+
+* {
+	padding: 40px;
+	margin: 10px;
+}
+
+/* type */
+
+body{
+     font-family: sans-serif;
+     text-align: center;
+     font-size: 50;
+     line-height: 1.4;
+     background-color:#FFFFFF;
+     color: blue;
+}
+
+h1{
+	font-size: 80px;
+	border-bottom: 2px solid;
+
+}
+
+/*type*/
+content{
+	max-width: 1000px;
+	padding: 100px 30px;
+	margin: auto;
+	font-weight: 300;
+
+}
+
+.question{
+	font-size: 55px;
+}
+
+.answer_1{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: 10s ease-out;
+  padding-top: 10px;
+  border-bottom: 1px solid;
+}
+
+
+.answer_2{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_3{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_4{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_5{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_6{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_7{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_8{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_9{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+.answer_10{
+	font-size: 30px;
+	text-decoration: underline;
+	font-family: serif;
+  font-style: inerit;
+  transition: all 10s ease-in-out;
+  padding-top: 10px;
+  border-bottom: 1px solid
+}
+
+
+
