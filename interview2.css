@@ -12,7 +12,8 @@ body{
      text-align: center;
      font-size: 50;
      line-height: 1.4;
-     background-color:#FFFFFF;
+     height: 5600px; /* Used to enable scrolling */
+     background: linear-gradient(0deg, rgba(255,250,0,1) 31%, rgba(255,255,255,1) 68%);
      color: blue;
 }
 
@@ -39,31 +40,37 @@ content{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
-  font-style: inerit;
-  transition: 10s ease-out;
-  padding-top: 10px;
+  font-style: inerit;  
   border-bottom: 1px solid;
 }
 
+#A1:hover{
+	transform: scale(1.5);
+}
 
 .answer_2{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A2:hover{
+	transform: scale(1.5);
+}
 .answer_3{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
+}
+
+#A3:hover{
+	transform: scale(1.5);
 }
 
 .answer_4{
@@ -71,9 +78,13 @@ content{
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
+}
+
+
+#A4:hover{
+	transform: scale(1.5);
 }
 
 .answer_5{
@@ -81,60 +92,73 @@ content{
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+
+#A5:hover{
+	transform: scale(1.5);
+}
 .answer_6{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A6:hover{
+	transform: scale(1.5);
+}
 .answer_7{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A7:hover{
+	transform: scale(1.5);
+}
 .answer_8{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A8:hover{
+	transform: scale(1.5);
+}
 .answer_9{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A9:hover{
+	transform: scale(1.5);
+}
 .answer_10{
 	font-size: 30px;
 	text-decoration: underline;
 	font-family: serif;
   font-style: inerit;
-  transition: all 10s ease-in-out;
   padding-top: 10px;
   border-bottom: 1px solid
 }
 
+#A10:hover{
+	transform: scale(1.5);
+}
 
 
