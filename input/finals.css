@@ -1,0 +1,58 @@
+@import url('@import url('https://fonts.googleapis.com/css2?family=Alata&family=Berkshire+Swash&family=Chivo&family=Nanum+Pen+Script&family=Overpass+Mono&family=Quattrocento+Sans&family=Space+Mono&display=swap);
+ 
+
+body {
+  background: url(yflower.jpeg);
+  padding-top: 3vw;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Nanum Pen Script', cursive;;
+  font-size: 3vw;
+  color: white;
+}
+kbd {
+  background: #6666;
+  border: solid .3vw #888;
+  border-radius: 1vw;
+  padding: 1vw 3vw;
+}
+#key {
+  color: #444;
+  background: #0366;
+  border: solid .3vw #048;
+  border-radius: 1vw;
+  margin: 5vw;
+  padding: 1vw;
+  font-size: 4vw;
+}
+p:empty {
+  display: none;
+}
+
+
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+/*.container {
+  width: 60%;
+  height: 60%;
+  overflow: hidden;
+  border: solid;
+  margin: 0 auto;
+  padding: auto;
+
+}*/
+
+a{
+  cursor: url("https://cur.cursors-4u.net/cursors/cur-2/cur199.ani"), url("https://cur.cursors-4u.net/cursors/cur-2/cur199.png"), default;
+    }
+
