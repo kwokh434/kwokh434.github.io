@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass+Mono&family=Space+Mono&display=swap');
+body{
+	margin: 0;
+	font-size: 20px;
+  text-align: center;
+  font-family:'Overpass Mono', monospace;;
+ background-image: url("grid2.jpg")
+}
+
+#myCanvas2{
+  background-color: white;
+  z-index: -2;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-image: url("grid2.jpg");
+  min-width: 100%;
+  max-width: 100%;
+}
+
+
+.modal{
+  position: relative;
+  left: 10%;
+  top: 60%;
+  width: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.6rem 3rem;
+  border: 3px solid black;
+  border-radius: 5px;
+  background: white;
+/*  margin-top: 0px;*/
+
+}
+
+
+div{
+  font-size: 20px;
+  cursor:  pointer;
+  margin: 35px auto;
+  padding: 20px;
+  width: 70vw;
+
+}
+
+button{
+  background-color: black;
+  color: white;
+  border-radius: 100%;
+  width: 80px;
+  height: 50px;
+  font-size: 20px;
+
+}
+
+.hoverdiv:hover{ 
+ animation:hoveranimation 2s ease-in-out;
+}
+
+
+
+@keyframes hoveranimation {
+  0% {
+    opacity: 100% ;
+    letter-spacing: normal;
+  }
+  50% {
+    opacity: 50%;
+    letter-spacing: 2px;
+  }
+
+  100% {
+    opacity: 100% ;
+    letter-spacing: normal;
+  }
+} 
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px){
+  body{
+    background-color: #DFCFBE;
+    color: black;
+    font-family: 'Space Mono', monospace;; 
+    font-size: 40px;
+    padding: 20px;
+    background-image: none;
+    margin: auto;
+ }
+ 
+
+
+
+
+
+
+}
+
+
