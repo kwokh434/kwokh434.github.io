@@ -161,11 +161,11 @@ function Note(inX, inY) {
   }
 
   this.display = function () {
-    if (this.mouseOver()) {
-      // this.col = color(255, 0, 255);
-    } else {
-      this.col = color(255);
-    }
+    // if (this.mouseOver()) {
+    //   // this.col = color(255, 0, 255);
+    // } else {
+    //   this.col = color(255);
+    // }
     fill(this.col);
     stroke(2);
     rect(this.x, this.y, this.w, this.h);
