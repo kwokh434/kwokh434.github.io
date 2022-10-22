@@ -1,0 +1,32 @@
+
+body{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-family:  tahoma;
+	align-items: center;
+	background: url(backkk.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100vh;
+
+
+
+
+}
+
+h1{ 
+ font-size: 150px;
+ margin: 20px;
+ padding: 30px;
+}
+
+.project{
+font-size: 50px;
+ margin: 10px;
+ top: 40px;
+ padding: 30px;
+
+}
+
+
