@@ -1,0 +1,98 @@
+body{
+    padding:0;
+    margin: auto;
+}
+
+
+h2{
+    font-size: 40px;
+    margin:30px;
+}
+
+
+
+#slider {
+    overflow: hidden;
+    top: 37%;
+
+}
+
+#slider figure{
+    position: relative;
+    width:500%;
+    margin:0;
+    left: 30px;
+    animation:9s slider infinite;
+
+}
+
+#slider figure img{
+    float:left;
+    width:20%;
+}
+
+@keyframes slider {
+    0%{
+        left:0;
+    }
+
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-400%;
+    }
+    125%{
+        left:-inherit;
+    }
+
+    130%{
+        left:0%;
+    }
+
+}
+
+
+
+.mock_web img{
+    height: 650px;
+    width: 750px;
+   
+    top:25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.mock_mobile img{
+    width: 320px;
+   height: 550px;
+   top:25%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 30px;
+   margin-bottom: 30px;
+
+}
+
+
