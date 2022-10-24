@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+  
+  canvas {
+    display: block;
+    
+}
+
+.text1{
+  font-size: 30px; 
+  line-height: 1.5em;
+  font-weight: 200;
+  margin-top: 3px; 
+  top:60px;
+  padding-bottom: 8px;  
+  margin: 3px;
+  text-align: left;
+  z-index: -1;
+  
+
+}
