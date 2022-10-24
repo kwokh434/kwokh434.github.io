@@ -74,17 +74,15 @@ h2{
 
 .mock_web img{
     height: 650px;
-    width: 750px;
-   
+    width: 950px;
     top:25%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
 }
 
 .mock_mobile img{
-    width: 320px;
+   width: 320px;
    height: 550px;
    top:25%;
    display: block;
@@ -92,6 +90,20 @@ h2{
    margin-right: auto;
    margin-top: 30px;
    margin-bottom: 30px;
+
+}
+
+.mock_icon img{
+    width: 320px;
+    height: 350px;
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  
 
 }
 
