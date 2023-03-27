@@ -1,0 +1,40 @@
+.body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .square {
+    height: 350px;
+    width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.8); 
+  } */
+
+.parent {
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 80px;
+    /* border: 1px solid rgba(0, 0, 0, 0.8);  */
+
+} 
+
+.box{
+    border: 1px solid rgba(0, 0, 0, 0.8); 
+    height: 40vh;
+
+}
+    
+.box1{
+    background-color: red;
+}
+
+img{
+    display:  block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    margin: auto;
+}
