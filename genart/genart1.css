@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    vertical-align: middle;
+    background-color: whitesmoke;
+    font-size: 25px;
+}
+
+
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.back{
+	/* display: inline-block; */
+	padding: 10px 20px;
+
+
+	text-align: center;
+	cursor: pointer;
+    color: red;
+    position:absolute; 
+    left:10px; 
+    top:8px;
+    object-position: left top;
+    font-size: 25px;
+}
+
+.back:link { text-decoration: none; }
+.back:hover {color:black; }
+
+.navigation{
+   
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin-top: 45; */
+    display:inline-block;
+
+
+}
+/* .index h1{
+    text-align: center;
+    color:  red;
+    position:absolute;
+    /* display: inline-block; */
+    /* left:80px;  */
+     /* margin-right: -50px;
+    object-position: center; */
+    
+/* } */
+
+.name{
+    display: block;
+      padding: 10px 20px;
+      text-align: center;
+    color:red;
+    position: absolute;
+    margin: 0;
+    position: absolute;
+    top: 33px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+
+   
+    /* object-position: center */
+  }
+  
+.wrapper h1{
+	text-align: center;
+    color:  red;
+    position:absolute;
+    /* display: inline-block; */
+    /* left:80px;  */
+    top:20px;  
+    right: 20px;
+    object-position: right top;
+    font-size: 25px;
+}
+
+.desc{
+    margin:20;
+    font-size: 20px;
+}
+
+
+.gallery{
+    margin:40;
+    padding:40;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 35px;
+    margin-top: 60px;
+    /* display:flex; */
+    /* align-items:center;
+    justify-content: center; */ 
+    /* background-color:red; */ 
+
+
+}
+
+.gallery > div{
+    text-align:center;
+    flex:1 
+}
+
+
