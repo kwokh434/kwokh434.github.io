@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+}
+canvas {
+  padding: 0;
+  margin: auto;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+}
+
+.wrapper {
+  display: block;
+	padding: 10px 20px;
+	text-align: center;
+  color:black;
+  position: absolute;
+  margin: 0;
+  position: absolute;
+  top: 33px;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+ 
+  /* object-position: center */
+}
+
+.btn1{
+	display: inline-block;
+	padding: 10px 20px;
+  left:0px; 
+  top:10px;
+	text-align: center;
+	cursor: pointer;
+  color:black;
+  position: absolute;
+  object-position: left top;
+}
+.btn1:link { text-decoration: none; }
+.btn1:hover {color:red; }
+
+.btn2{
+	display: inline-block;
+	padding: 10px 20px;
+	text-align: center;
+	cursor: pointer;
+  object-position: right top;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  color:black;
+}
+.btn2:link { text-decoration: none; }
+.btn2:hover {color:red; }
+
+
+.text h3{
+  position: fixed;     
+  text-align: center;    
+  bottom: 0px; 
+  width: 100%;
+  font-size: 15px;
+}
+
+/*  */
