@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+
+  text-align:center;
+  background-color: #13bdf5;
+}
+
+
+
+h2{
+  
+  font-size: 47px; 
+  font-weight: 350px;
+  font-family: 'Josefin Sans', sans-serif;
+  color:red;
+  margin:10px;
+  margin-bottom: 25px;
+  /* background-color: #ffd642;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  height:60px; 
+  top: 90px;
+   */
+
+  /* padding: 20px 10px 0; */
+ 
+
+}
+
+
+
+
+h1{
+  font-family: 'Tangerine', cursive;
+  color:#FFD700;
+  font-size: 70px; 
+  font-weight: 450px;
+}
+
+
+
+.fram{
+  padding-top:2px;
+  border-radius: 30px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.05), inset 1px 0px 0px rgba(255,255,255,0.05), inset 1px 2px 0px rgba(255,255,255,0.05), inset 2px 1px 0px rgba(255,255,255,0.05), inset 2px 3px 0px rgba(255,255,255,0.05), inset 3px 2px 0px rgba(255,255,255,0.05), inset 3px 4px 0px rgba(255,255,255,0.05), inset 4px 3px 0px rgba(255,255,255,0.05), inset 4px 5px 0px rgba(255,255,255,0.05), inset 5px 4px 0px rgba(255,255,255,0.05), inset 5px 6px 0px rgba(255,255,255,0.05), inset 6px 5px 0px rgba(255,255,255,0.05), inset 6px 7px 0px rgba(255,255,255,0.05), inset 7px 6px 0px rgba(255,255,255,0.05), inset 7px 9px 0px rgba(255,255,255,0.05), inset 8px 7px 0px rgba(255,255,255,0.05), inset 8px 9px 0px rgba(255,255,255,0.05), inset 9px 8px 0px rgba(255,255,255,0.05), inset 0px -1px 0px rgba(0,0,0,0.05), inset -1px 0px 0px rgba(0,0,0,0.05), inset -1px -2px 0px rgba(0,0,0,0.05), inset -2px -1px 0px rgba(0,0,0,0.05), inset -2px -3px 0px rgba(0,0,0,0.05), inset -3px -2px 0px rgba(0,0,0,0.05), inset -3px -4px 0px rgba(0,0,0,0.05), inset -4px -3px 0px rgba(0,0,0,0.05), inset -4px -5px 0px rgba(0,0,0,0.05), inset -5px -4px 0px rgba(0,0,0,0.05), inset -5px -6px 0px rgba(0,0,0,0.05), inset -6px -5px 0px rgba(0,0,0,0.05), inset -6px -7px 0px rgba(0,0,0,0.05), inset -7px -6px 0px rgba(0,0,0,0.05), inset -7px -9px 0px rgba(0,0,0,0.05), inset -8px -7px 0px rgba(0,0,0,0.05), inset -8px -9px 0px rgba(0,0,0,0.05), inset -9px -8px 0px rgba(0,0,0,0.05), 0px 0px 3px rgba(0,0,0,0.3), 2px 2px 3px rgba(0,0,0,0.3);
+  background:red;
+  height:950px;
+  width:800px;
+  margin:60px auto;
+  border: 5px solid #ce0000;
+  border-top: 5px solid #ff4242;
+  border-left: 5px solid #ff4242;
+  border-radius: 50px;
+
+}
+
+
+
+canvas {
+  z-index: 10;
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 15px;
+  border: 4px solid #ce0000;
+  border-bottom: 4px solid #ff4242;
+  border-right: 4px solid #ff4242;
+  box-shadow: inset 0 0 50px hsla(0, 0%, 0%, 0.3);
+}
+
+
+#resetButton {
+  display:grid; 
+  position: relative;
+
+}
+
+#reset{
+  background-color: white;
+  border-radius: 100px;
+  border-color: gray;
+  width: 80px;
+  height: 80px;
+  grid-area: left;
+  margin-left:650px;
+  margin-top: -165px;
+}
+
+
+#reset2 {  background-color: white;
+  border-radius: 100px;
+  border-color: gray;
+  width: 80px;
+  height: 80px;
+  grid-area: right;
+  margin-top: -165px;
+
+}
+
+/* .intro-text1{
+  float: left;
+  width: 350px;
+  margin-top: 10px; 
+  margin-left: 70px; 
+  margin-right: 70px; 
+  background: #FFD700;
+  border: 3px solid #ceaf00;
+  border-top:3px solid #ffd642;
+  border-left: 3px solid #ffd642;
+  border-radius: 40px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  
+
+} */
+
+
+
+.intro-text{
+  float: left;
+  width: 350px;
+  margin-top: 5px; 
+  margin-left: 50px; 
+  margin-right: 70px; 
+  background: #f6ce1b;
+  border: 5px solid #ceaf00;
+  border-top: 5px solid #ffd642;
+  border-left: 5px solid #ffd642;
+  border-radius: 40px;
+  padding: 15px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.05), inset 1px 0px 0px rgba(255,255,255,0.05), inset 1px 2px 0px rgba(255,255,255,0.05), inset 2px 1px 0px rgba(255,255,255,0.05), inset 2px 3px 0px rgba(255,255,255,0.05), inset 3px 2px 0px rgba(255,255,255,0.05), inset 3px 4px 0px rgba(255,255,255,0.05), inset 4px 3px 0px rgba(255,255,255,0.05), inset 4px 5px 0px rgba(255,255,255,0.05), inset 5px 4px 0px rgba(255,255,255,0.05), inset 5px 6px 0px rgba(255,255,255,0.05), inset 6px 5px 0px rgba(255,255,255,0.05), inset 6px 7px 0px rgba(255,255,255,0.05), inset 7px 6px 0px rgba(255,255,255,0.05), inset 7px 9px 0px rgba(255,255,255,0.05), inset 8px 7px 0px rgba(255,255,255,0.05), inset 8px 9px 0px rgba(255,255,255,0.05), inset 9px 8px 0px rgba(255,255,255,0.05), inset 0px -1px 0px rgba(0,0,0,0.05), inset -1px 0px 0px rgba(0,0,0,0.05), inset -1px -2px 0px rgba(0,0,0,0.05), inset -2px -1px 0px rgba(0,0,0,0.05), inset -2px -3px 0px rgba(0,0,0,0.05), inset -3px -2px 0px rgba(0,0,0,0.05), inset -3px -4px 0px rgba(0,0,0,0.05), inset -4px -3px 0px rgba(0,0,0,0.05), inset -4px -5px 0px rgba(0,0,0,0.05), inset -5px -4px 0px rgba(0,0,0,0.05), inset -5px -6px 0px rgba(0,0,0,0.05), inset -6px -5px 0px rgba(0,0,0,0.05), inset -6px -7px 0px rgba(0,0,0,0.05), inset -7px -6px 0px rgba(0,0,0,0.05), inset -7px -9px 0px rgba(0,0,0,0.05), inset -8px -7px 0px rgba(0,0,0,0.05), inset -8px -9px 0px rgba(0,0,0,0.05), inset -9px -8px 0px rgba(0,0,0,0.05), 0px 0px 3px rgba(0,0,0,0.3), 2px 2px 3px rgba(0,0,0,0.3);
+
+}
+   
+.intro-text p{
+  color:red;
+  line-height: 14.5pt;
+  margin-top: 0px;
+  text-align: center;
+  margin: 13px;
+  font-size: 20px;
+ 
+
+}
+
+
+p{
+  color:white;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  font-weight: 450px;
+
+}
+
+.code{
+  float: right;
+  width: 350px;
+  height: 100px;
+  margin-top: 125px; 
+  margin-left: 70px; 
+  margin-right: 50px; 
+  background: #f6ce1b;
+  border: 5px solid #ceaf00;
+  border-top: 5px solid #ffd642;
+  border-left: 5px solid #ffd642;
+  border-radius: 40px;
+  padding: 15px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.05), inset 1px 0px 0px rgba(255,255,255,0.05), inset 1px 2px 0px rgba(255,255,255,0.05), inset 2px 1px 0px rgba(255,255,255,0.05), inset 2px 3px 0px rgba(255,255,255,0.05), inset 3px 2px 0px rgba(255,255,255,0.05), inset 3px 4px 0px rgba(255,255,255,0.05), inset 4px 3px 0px rgba(255,255,255,0.05), inset 4px 5px 0px rgba(255,255,255,0.05), inset 5px 4px 0px rgba(255,255,255,0.05), inset 5px 6px 0px rgba(255,255,255,0.05), inset 6px 5px 0px rgba(255,255,255,0.05), inset 6px 7px 0px rgba(255,255,255,0.05), inset 7px 6px 0px rgba(255,255,255,0.05), inset 7px 9px 0px rgba(255,255,255,0.05), inset 8px 7px 0px rgba(255,255,255,0.05), inset 8px 9px 0px rgba(255,255,255,0.05), inset 9px 8px 0px rgba(255,255,255,0.05), inset 0px -1px 0px rgba(0,0,0,0.05), inset -1px 0px 0px rgba(0,0,0,0.05), inset -1px -2px 0px rgba(0,0,0,0.05), inset -2px -1px 0px rgba(0,0,0,0.05), inset -2px -3px 0px rgba(0,0,0,0.05), inset -3px -2px 0px rgba(0,0,0,0.05), inset -3px -4px 0px rgba(0,0,0,0.05), inset -4px -3px 0px rgba(0,0,0,0.05), inset -4px -5px 0px rgba(0,0,0,0.05), inset -5px -4px 0px rgba(0,0,0,0.05), inset -5px -6px 0px rgba(0,0,0,0.05), inset -6px -5px 0px rgba(0,0,0,0.05), inset -6px -7px 0px rgba(0,0,0,0.05), inset -7px -6px 0px rgba(0,0,0,0.05), inset -7px -9px 0px rgba(0,0,0,0.05), inset -8px -7px 0px rgba(0,0,0,0.05), inset -8px -9px 0px rgba(0,0,0,0.05), inset -9px -8px 0px rgba(0,0,0,0.05), 0px 0px 3px rgba(0,0,0,0.3), 2px 2px 3px rgba(0,0,0,0.3);
+}
+
+.code1{
+  color:red;
+  line-height: 14.5pt;
+  margin-top: 0px;
+  text-align: center;
+  margin: 13px;
+  font-size: 20px;
+  border: none;
+  outline:none;
+  background:none ;
+
+}
+
+input[type=range]::-webkit-slider-thumb {
+  position: relative;
+  top: -1.5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FFD700;
+  -webkit-appearance: none;
+  background-color: #FFD700;
+  border-radius: 90%;
+  cursor: pointer;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  position: relative;
+  height: 15px;
+  border: 1px solid #006efffc;
+  border-radius: 65px;
+  background-color: #ffffff;
+  box-shadow: inset 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+
+.range-control {
+  position: relative;
+}
+
